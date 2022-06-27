@@ -1,0 +1,14 @@
+.idea
+.idea_modules
+build
+server/static
+lib
+coverage
+out
+gradle
+node_modules
+jspm_packages
+*.html
+*.md
+**/package.json
+**/package-lock.json

@@ -1,0 +1,10 @@
+{
+  "name": "@ososa-test/packages",
+  "private": true,
+  "scripts": {
+    "clean": "pnpm exec rm -rf node_modules && pnpm -r run clean --parallel --aggregate-output"
+  },
+  "devDependencies": {
+    "prettier": "2.5.1"
+  }
+}
