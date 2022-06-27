@@ -1,7 +1,23 @@
+import path from 'path'
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+
+const packageName ='bbb'
+
+const fileName = {
+  es: `${packageName}.mjs`,
+  cjs: `${packageName}.cjs`,
+};
+
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()]
+  base: "./",
+  build: {
+    lib: {
+      entry: path.resolve(__dirname, "index.js"),
+      name: packageName,
+      formats: ["es", "cjs"],
+      fileName: (format) => fileName[format],
+    },
+  },
 })
