@@ -1,6 +1,6 @@
 {
   "name": "@ososa-test/aaa",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "./dist/aaa.cjs",
   "module": "./dist/aaa.mjs",
   "scripts": {
@@ -12,7 +12,7 @@
     "vite": "^2.9.9"
   },
   "dependencies": {
-    "@ososa-test/bbb": "^0.0.2",
-    "@ososa-test/ccc": "^0.0.1"
+    "@ososa-test/bbb": "^0.0.3",
+    "@ososa-test/ccc": "^0.0.2"
   }
 }
