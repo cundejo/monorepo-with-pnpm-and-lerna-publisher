@@ -1,8 +1,8 @@
 {
   "name": "@ososa-test/ccc",
   "version": "0.0.1",
-  "main": "./dist/zzz.cjs",
-  "module": "./dist/zzz.mjs",
+  "main": "./dist/ccc.cjs",
+  "module": "./dist/ccc.mjs",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,5 +10,8 @@
   },
   "devDependencies": {
     "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "@ososa-test/ddd": "^0.0.1"
   }
 }

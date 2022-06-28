@@ -1,8 +1,8 @@
 {
   "name": "@ososa-test/aaa",
   "version": "0.0.2",
-  "main": "./dist/zzz.cjs",
-  "module": "./dist/zzz.mjs",
+  "main": "./dist/aaa.cjs",
+  "module": "./dist/aaa.mjs",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,5 +10,9 @@
   },
   "devDependencies": {
     "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "@ososa-test/bbb": "^0.0.2",
+    "@ososa-test/ccc": "^0.0.1"
   }
 }

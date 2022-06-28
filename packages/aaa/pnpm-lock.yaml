@@ -1,12 +1,26 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@ososa-test/bbb': ^0.0.2
+  '@ososa-test/ccc': ^0.0.1
   vite: ^2.9.9
+
+dependencies:
+  '@ososa-test/bbb': 0.0.2
+  '@ososa-test/ccc': 0.0.1
 
 devDependencies:
   vite: 2.9.13
 
 packages:
+
+  /@ososa-test/bbb/0.0.2:
+    resolution: {integrity: sha512-8ZAS/wXAeeMd3n8InY6CTFZDQaTmCYf5L5lLL42fW9E/kL8rb3yan0ORlxC3LPxa+wfgLxSxGhweE/fSaM7F4w==}
+    dev: false
+
+  /@ososa-test/ccc/0.0.1:
+    resolution: {integrity: sha512-m6ymxfyAGni0bZxRs7gqy+8mfo12z8rWS9Ze/1GcBL3DPoloCTfzVGg0vGQ0EXRnIHzax4oJcYSc70cg0nQRRA==}
+    dev: false
 
   /esbuild-android-64/0.14.47:
     resolution: {integrity: sha512-R13Bd9+tqLVFndncMHssZrPWe6/0Kpv2/dt4aA69soX4PRxlzsVpCvoJeFE8sOEoeVEiBkI0myjlkDodXlHa0g==}

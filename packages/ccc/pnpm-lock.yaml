@@ -1,12 +1,20 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@ososa-test/ddd': ^0.0.1
   vite: ^2.9.9
+
+dependencies:
+  '@ososa-test/ddd': 0.0.1
 
 devDependencies:
   vite: 2.9.13
 
 packages:
+
+  /@ososa-test/ddd/0.0.1:
+    resolution: {integrity: sha512-DUvQAA4DLXVEXR9okLj1ztPEQMKZHBg6DoJ1egwxdsAWQF3Ob0aJmxzX1WS0zriVS936HMKFvSDjuS1KvTZFOg==}
+    dev: false
 
   /esbuild-android-64/0.14.47:
     resolution: {integrity: sha512-R13Bd9+tqLVFndncMHssZrPWe6/0Kpv2/dt4aA69soX4PRxlzsVpCvoJeFE8sOEoeVEiBkI0myjlkDodXlHa0g==}
