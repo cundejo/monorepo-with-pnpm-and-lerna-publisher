@@ -1,6 +1,6 @@
 {
   "name": "@ososa-test/ccc",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "./dist/ccc.cjs",
   "module": "./dist/ccc.mjs",
   "scripts": {
