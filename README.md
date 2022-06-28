@@ -29,3 +29,7 @@ Publishing should fulfill all these scenarios:
     - publish `ccc` with `ddd` new version
     - publish `bbb` with `ccc` new version
     - publish `aaa` with `bbb` and `ccc` new versions
+    
+
+## Result
+It worked perfectly
