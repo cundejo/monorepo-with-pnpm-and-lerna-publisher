@@ -32,4 +32,4 @@ Publishing should fulfill all these scenarios:
     
 
 ## Result
-It worked perfectly
+It worked perfectly 😎
