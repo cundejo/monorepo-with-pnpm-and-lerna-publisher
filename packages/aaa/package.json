@@ -1,6 +1,5 @@
 {
   "name": "@ososa-test/aaa",
-  "private": true,
   "version": "0.0.1",
   "main": "./dist/zzz.cjs",
   "module": "./dist/zzz.mjs",
