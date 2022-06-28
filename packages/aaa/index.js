@@ -1,5 +1,5 @@
 const aaa = () => {
-  console.log('aaaa library here!')
+  console.log('aaa library here!')
 }
 
 export default aaa;
